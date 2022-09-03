@@ -32,7 +32,7 @@ public class StudentConfig {
                     LocalDate.of(2005, FEBRUARY, 5)
             );
             Student Obayed = new Student(
-                    "Obaye",
+                    "Obayeds",
                     "obayed@gmail.com",
                     LocalDate.of(2005, FEBRUARY, 5)
             );
