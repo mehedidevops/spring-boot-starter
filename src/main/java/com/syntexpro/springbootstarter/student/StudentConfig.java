@@ -31,6 +31,11 @@ public class StudentConfig {
                     "tapan@gmail.com",
                     LocalDate.of(2005, FEBRUARY, 5)
             );
+            Student Obayed = new Student(
+                    "Obayed",
+                    "obayed@gmail.com",
+                    LocalDate.of(2005, FEBRUARY, 5)
+            );
 
             repository.saveAll(
                     List.of(mehedi, moinul)
