@@ -29,21 +29,14 @@ public class Student {
     }
 
 
-    public Student(
-            Integer id,
-            String name,
-            String email,
-            LocalDate dob) {
+    public Student(Integer id, String name, String email, LocalDate dob) {
         this.id = id;
         this.name = name;
         this.email = email;
         this.dob = dob;
     }
 
-    public Student(
-            String name,
-            String email,
-            LocalDate dob) {
+    public Student(String name, String email, LocalDate dob) {
         this.name = name;
         this.email = email;
         this.dob = dob;
