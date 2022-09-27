@@ -1,8 +1,9 @@
-package com.syntexpro.springbootstarter.student;
+package com.syntexpro.springbootstarter.student.entity;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.Period;
+
 
 @Entity
 @Table

@@ -1,5 +1,7 @@
-package com.syntexpro.springbootstarter.student;
+package com.syntexpro.springbootstarter.student.service;
 
+import com.syntexpro.springbootstarter.student.entity.Student;
+import com.syntexpro.springbootstarter.student.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -24,6 +26,7 @@ public class StudentService {
             throw new IllegalStateException("email taken");
         }
         repository.save(student);
+
     }
 
     public void deleteStudent(Integer studentId) {

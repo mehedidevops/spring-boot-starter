@@ -1,7 +1,7 @@
-package com.syntexpro.springbootstarter.student;
+package com.syntexpro.springbootstarter.student.repository;
 
+import com.syntexpro.springbootstarter.student.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;

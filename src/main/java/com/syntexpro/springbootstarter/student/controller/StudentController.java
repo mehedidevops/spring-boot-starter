@@ -1,5 +1,7 @@
-package com.syntexpro.springbootstarter.student;
+package com.syntexpro.springbootstarter.student.controller;
 
+import com.syntexpro.springbootstarter.student.service.StudentService;
+import com.syntexpro.springbootstarter.student.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
